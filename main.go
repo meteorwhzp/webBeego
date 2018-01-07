@@ -9,7 +9,7 @@ type HomeController struct {
 }
 
 func (this *HomeController) Get() {
-	this.Ctx.WriteString("hello world")
+	this.Ctx.WriteString("hello world wanhao")
 }
 
 
